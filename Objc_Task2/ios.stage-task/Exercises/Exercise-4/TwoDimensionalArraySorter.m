@@ -8,7 +8,7 @@
     NSMutableArray *arrayStrings = [[NSMutableArray alloc] init];
     NSMutableArray *arrayNumbers = [[NSMutableArray alloc] init];
     
-    if(array == nil){
+    if(array == nil || array.count == 0){
       return @[];
     }
     
